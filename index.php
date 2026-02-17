@@ -2029,8 +2029,8 @@ async function handleRegister(e){
             </div>
             <div class="message-input-wrapper">
                 <textarea id="messageInput" class="message-input" placeholder="Сообщение..." rows="1" onkeydown="handleKeyPress(event)" oninput="handleMessageInput(this)" maxlength="<?php echo MAX_MESSAGE_LENGTH; ?>"></textarea>
-                <div class="char-counter" id="charCounter">0 / <?php echo MAX_MESSAGE_LENGTH; ?></div>
             </div>
+            <div class="char-counter" id="charCounter">0 / <?php echo MAX_MESSAGE_LENGTH; ?></div>
             <button class="send-btn" onclick="sendMessage()" title="Отправить">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
             </button>
