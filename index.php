@@ -1683,7 +1683,7 @@ function showLoginPage() {
         <button type="submit" class="btn" id="registerBtn" disabled>Создать аккаунт</button>
         <div id="registerError" class="error-message"></div>
     </form>
-    <div class="security-badge">🔒 AES-256-GCM шифрование · End-to-End</div>
+    <div class="security-badge">🔒 AES-256-GCM шифрование · Server-Side</div>
 </div>
 <script>
 const csrfToken='<?php echo $csrf_token; ?>';
