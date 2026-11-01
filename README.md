@@ -52,7 +52,7 @@ define('ENCRYPTION_KEY',       'ваш_очень_длинный_и_случай
 
 ## Демо
 <img width="1920" height="950" alt="изображение" src="https://github.com/user-attachments/assets/a93b893d-caa1-4aae-bdf1-48f72f1a32f9" />
-https://liveto.chat/app/
+https://app.liveto.chat/
 
 (можно прямо там зарегистрироваться и потестировать)
 
